@@ -2,9 +2,8 @@ html {
 font-family: "Crimson Text", serif;
 box-sizing: border-box;
 padding-left: 1rem;
-padding- right: 1rem;
+padding-right: 1rem;
 padding-top: 1rem;
-color: #555;
 }
 
 *, *::before, *::after {
@@ -16,6 +15,7 @@ font-family: "Crimson Text", serif;
 */
 
 h1 {
+font-size: 1.5rem;
 font-weight: lighter;
 color: #222;
 line-height: 0;
@@ -28,4 +28,15 @@ header p {
 header {
   padding-bottom: 2px;
   border-bottom: 1px solid #999;
+}
+
+body {
+  color: #222;
+  line-height: 1.3rem;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  color: #555;
+  text-align: inherit;
 }
