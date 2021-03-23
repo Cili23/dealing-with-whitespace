@@ -1,7 +1,10 @@
 html {
+font-family: "Crimson Text", serif;
 box-sizing: border-box;
 padding-left: 1rem;
 padding- right: 1rem;
+padding-top: 1rem;
+color: #555;
 }
 
 *, *::before, *::after {
@@ -11,3 +14,18 @@ box-sizing: inherit;
 /*
 font-family: "Crimson Text", serif;
 */
+
+h1 {
+font-weight: lighter;
+color: #222;
+line-height: 0;
+}
+
+header p {
+  font-style: italic;
+}
+
+header {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #999;
+}
