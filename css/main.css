@@ -1,6 +1,7 @@
 html {
   font-family: "Crimson Text", serif;
   box-sizing: border-box;
+  padding: 1em 1rem 0;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,8 @@ font-family: "Crimson Text", serif;
 */
 
 article {
-  padding: 1em 1rem 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #999;
 }
 
 article header {
@@ -35,25 +37,27 @@ header {
 }
 
 body {
-  color: #222;
   line-height: 1.3rem;
   margin: 0;
 }
 
 blockquote {
   font-size: 1.125rem;
-  color: #555;
-  text-align: inherit;
+  color: #999;
 }
 
 .quote {
   text-align: left;
+  color: #999;
 }
 
 article p {
-  color: #222;
+  color: #555;
 }
 
 article ol {
+  margin: 0 1em;
+  padding: 0;
   text-align: left;
+  color: #555;
 }
